@@ -1,0 +1,44 @@
+# Laravel dependencies
+/vendor/
+node_modules/
+
+# Laravel environment files
+.env
+.env.*
+!.env.example
+
+# Laravel specific storage & cache
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/
+
+# Debug & logs
+/storage/debugbar
+*.log
+.phpunit.result.cache
+
+# Compiled files
+*.cache
+*.compiled.php
+
+# Composer & npm logs
+npm-debug.log*
+yarn-error.log*
+
+# IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+/.fleet
+/.nova
+/.phpunit.cache
+/.zed
+
+# OS generated files
+.DS_Store
+Thumbs.db
